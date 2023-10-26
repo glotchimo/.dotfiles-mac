@@ -1,0 +1,26 @@
+theme = "base16_transparent"
+
+[editor]
+line-number = "relative"
+bufferline = "multiple"
+color-modes = true
+true-color = true
+mouse = false
+idle-timeout = 0
+cursorline = true
+cursorcolumn = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.statusline]
+left = ["mode", "file-name", "version-control", "spinner"]
+right = ["diagnostics", "selections", "position"]
+
+[editor.file-picker]
+hidden = false
+
+[editor.lsp]
+display-inlay-hints = false
